@@ -1,0 +1,139 @@
+.darbalaiks-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 250vh;
+  align-items: flex-start;
+  flex-direction: column;
+  background-size: cover;
+  justify-content: flex-start;
+  background-image: linear-gradient(90deg, rgb(189, 195, 199) 0.00%,rgb(136, 134, 134, 0.32) 100.00%),url('https://img.pilseta24.lv/infopage/map_js_tmp/p/i/makslas-nams_pilseta24_2021_makslas-nams_27_3391454967_56_5086975121_340x250.jpg');
+}
+.darbalaiks-text {
+  color: rgb(0, 0, 0);
+  height: 150px;
+  font-size: 50px;
+  align-self: stretch;
+  font-style: normal;
+  text-align: center;
+  font-family: "Cormorant Infant";
+  font-weight: 700;
+  text-transform: uppercase;
+  background-color: rgb(253, 253, 253);
+}
+.darbalaiks-text04 {
+  top: 190px;
+  left: 435px;
+  color: rgb(0, 0, 0);
+  margin: auto;
+  position: absolute;
+  font-size: 34px;
+  align-self: center;
+  font-family: "Cormorant Infant";
+  font-weight: 700;
+  background-color: rgb(255, 255, 255);
+}
+.darbalaiks-text05 {
+  font-size: 37px;
+  font-weight: 700;
+}
+.darbalaiks-text06 {
+  font-size: 37px;
+  font-weight: 700;
+}
+.darbalaiks-text07 {
+  font-size: 37px;
+  font-weight: 700;
+}
+.darbalaiks-text08 {
+  font-size: 37px;
+  font-weight: 700;
+}
+.darbalaiks-link {
+  top: 245px;
+  left: 1018px;
+  position: absolute;
+  font-size: 23px;
+  font-style: normal;
+  font-family: "Cormorant Infant";
+  font-weight: 700;
+  text-decoration: none;
+}
+.darbalaiks-text33 {
+  top: 208px;
+  left: 1009px;
+  position: absolute;
+  font-size: 23px;
+  font-style: normal;
+  font-family: "Cormorant Infant";
+  font-weight: 700;
+  text-transform: capitalize;
+}
+.darbalaiks-icon {
+  top: 1062px;
+  left: 81px;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+}
+.darbalaiks-icon2 {
+  top: 1126px;
+  left: 85px;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+}
+.darbalaiks-text34 {
+  top: 927px;
+  left: 117px;
+  position: absolute;
+  font-size: 28px;
+  font-family: "Cormorant Infant";
+}
+.darbalaiks-text35 {
+  font-weight: 700;
+}
+.darbalaiks-text36 {
+  font-weight: 700;
+}
+.darbalaiks-text38 {
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+}
+.darbalaiks-text41 {
+  font-style: normal;
+  font-weight: 600;
+}
+.darbalaiks-text42 {
+  font-style: normal;
+  font-weight: 600;
+}
+.darbalaiks-text43 {
+  font-style: normal;
+  font-weight: 600;
+}
+.darbalaiks-text44 {
+  font-style: normal;
+  font-weight: 600;
+}
+.darbalaiks-text45 {
+  font-style: normal;
+  font-weight: 600;
+}
+.darbalaiks-text46 {
+  font-style: normal;
+  font-weight: 600;
+}
+.darbalaiks-text47 {
+  font-style: normal;
+  font-weight: 600;
+}
+.darbalaiks-navlink {
+  top: 75px;
+  left: 26px;
+  position: absolute;
+  font-style: normal;
+  font-weight: 600;
+  text-decoration: none;
+}

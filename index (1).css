@@ -1,0 +1,926 @@
+.galvene-container {
+  width: 100%;
+  display: flex;
+  min-height: 100vh;
+  overflow-x: hidden;
+  align-items: center;
+  flex-direction: column;
+}
+.galvene-hero {
+  width: 100%;
+  height: 784px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.galvene-main {
+  width: 100%;
+  height: 793px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  padding-left: var(--dl-space-space-fiveunits);
+  padding-right: var(--dl-space-space-fiveunits);
+  flex-direction: column;
+}
+.galvene-video {
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  width: 100%;
+  bottom: 0px;
+  height: 812px;
+  margin: auto;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.galvene-tint {
+  top: -17px;
+  left: 0px;
+  right: 0px;
+  width: 1520px;
+  height: 853px;
+  margin: auto;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.galvene-foto {
+  width: 100%;
+  height: 1285px;
+  opacity: 1;
+  align-self: center;
+  padding-bottom: 2px;
+}
+.galvene-content {
+  flex: 1;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.galvene-navbar {
+  width: 1271px;
+  display: flex;
+  position: relative;
+  max-width: 1440px;
+  align-self: center;
+  align-items: center;
+  padding-top: var(--dl-space-space-threeunits);
+  padding-bottom: var(--dl-space-space-threeunits);
+  justify-content: space-between;
+}
+.galvene-container01 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: space-between;
+  flex-direction: column;
+}
+.galvene-container02 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: space-between;
+  flex-direction: column;
+}
+.galvene-container03 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: space-between;
+  flex-direction: column;
+}
+.galvene-menu {
+  gap: var(--dl-space-space-twounits);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.galvene-hamburger {
+  cursor: pointer;
+  display: none;
+  padding: var(--dl-space-space-unit);
+  aspect-ratio: 1;
+  border-width: 0px;
+  border-radius: var(--dl-radius-radius-round);
+  flex-direction: row;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+.galvene-icon {
+  fill: #ffffff;
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+.galvene-date-time {
+  color: #ffffff;
+  font-size: 23px;
+  font-family: "Cormorant Infant";
+}
+.galvene-container04 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: space-between;
+  flex-direction: column;
+}
+.galvene-container05 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: space-between;
+  flex-direction: column;
+}
+.galvene-container06 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: space-between;
+  flex-direction: column;
+}
+.galvene-container07 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: space-between;
+  flex-direction: column;
+}
+.galvene-container08 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: space-between;
+  flex-direction: column;
+}
+.galvene-container09 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: space-between;
+  flex-direction: column;
+}
+.galvene-links {
+  gap: var(--dl-space-space-threeunits);
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  display: flex;
+  align-self: center;
+  align-items: flex-end;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.galvene-navlink {
+  top: 48px;
+  left: 802px;
+  color: rgb(255, 255, 255);
+  position: absolute;
+  font-size: 23px;
+  align-self: center;
+  font-style: normal;
+  text-align: left;
+  font-family: "Cormorant Infant";
+  font-weight: 700;
+  text-decoration: none;
+}
+.galvene-navlink1 {
+  top: 48px;
+  left: 677px;
+  position: absolute;
+  font-size: 23px;
+  align-self: center;
+  font-style: normal;
+  text-align: left;
+  font-family: "Cormorant Infant";
+  font-weight: 700;
+  text-decoration: none;
+}
+.galvene-navlink2 {
+  top: 50px;
+  right: 110px;
+  bottom: 50px;
+  position: absolute;
+  font-size: 23px;
+  align-self: center;
+  font-style: normal;
+  text-align: left;
+  font-family: "Cormorant Infant";
+  font-weight: 700;
+  text-decoration: none;
+}
+.galvene-navlink3 {
+  top: 50px;
+  right: 220px;
+  bottom: 50px;
+  position: absolute;
+  font-size: 23px;
+  align-self: center;
+  font-style: normal;
+  text-align: left;
+  font-family: "Cormorant Infant";
+  font-weight: 700;
+  text-decoration: none;
+}
+.galvene-text02 {
+  color: #ffffff;
+  font-size: 23px;
+  align-self: center;
+  font-style: normal;
+  font-family: "Cormorant Infant";
+  font-weight: 700;
+}
+.galvene-mobile-menu {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100vh;
+  display: none;
+  padding: 32px;
+  z-index: 1000;
+  position: fixed;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #fff;
+}
+.galvene-nav {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.galvene-container10 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--dl-space-space-threeunits);
+  justify-content: space-between;
+}
+.galvene-logo {
+  height: 33px;
+}
+.galvene-menu-close {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.galvene-icon02 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+.galvene-nav1 {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.galvene-text03 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.galvene-text04 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.galvene-text05 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.galvene-text06 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.galvene-text07 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.galvene-container11 {
+  flex: 0 0 auto;
+  width: auto;
+  display: flex;
+  margin-top: var(--dl-space-space-unit);
+  align-items: center;
+  flex-direction: row;
+}
+.galvene-login {
+  margin-right: var(--dl-space-space-twounits);
+}
+.galvene-icon-group {
+  display: flex;
+}
+.galvene-icon04 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  margin-right: var(--dl-space-space-twounits);
+}
+.galvene-icon06 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  margin-right: var(--dl-space-space-twounits);
+}
+.galvene-icon08 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+.galvene-center {
+  gap: var(--dl-space-space-threeunits);
+  width: 1118px;
+  height: 500px;
+  display: flex;
+  z-index: 100;
+  max-width: 900px;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.galvene-heading {
+  gap: var(--dl-space-space-oneandhalfunits);
+  width: 100%;
+  display: flex;
+  max-width: 900px;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.galvene-header {
+  color: rgb(255, 255, 255);
+  font-size: 90px;
+  font-style: normal;
+  text-align: center;
+  font-family: "Cormorant Infant";
+  font-weight: 700;
+  line-height: 90px;
+}
+.galvene-testimonials {
+  width: 100%;
+  height: 556px;
+  display: flex;
+  align-items: center;
+  padding-top: 120px;
+  padding-left: var(--dl-space-space-fiveunits);
+  padding-right: 159px;
+  flex-direction: column;
+  padding-bottom: 120px;
+  background-color: rgba(216, 199, 199, 0.56);
+}
+.galvene-content1 {
+  gap: var(--dl-space-space-threeunits);
+  width: 100%;
+  display: flex;
+  max-width: 900px;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.galvene-heading1 {
+  gap: var(--dl-space-space-threeunits);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.galvene-quote {
+  color: #000000;
+  width: 981px;
+  font-size: 40px;
+  font-style: italic;
+  font-family: "Cormorant Infant";
+  font-weight: 600;
+  line-height: 48px;
+}
+.galvene-details {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.galvene-author {
+  gap: var(--dl-space-space-twounits);
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.galvene-avatar {
+  width: 120px;
+  height: 110px;
+  object-fit: cover;
+  border-radius: var(--dl-radius-radius-round);
+}
+.galvene-name {
+  color: var(--dl-color-gray-black);
+  font-size: 26px;
+  font-style: normal;
+  font-family: "Cormorant Infant";
+  font-weight: 600;
+}
+.galvene-articles {
+  width: 100%;
+  height: 1146px;
+  display: flex;
+  align-items: center;
+  padding-left: var(--dl-space-space-fiveunits);
+  padding-right: var(--dl-space-space-fiveunits);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-fourunits);
+  justify-content: flex-start;
+  background-color: rgba(255, 255, 255, 0.45);
+}
+.galvene-banner {
+  width: 1519px;
+  height: 580px;
+  display: flex;
+  padding: var(--dl-space-space-threeunits);
+  position: relative;
+  align-items: center;
+  padding-left: 140px;
+  padding-right: 106px;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: rgba(96, 61, 30, 0.57);
+}
+.galvene-text08 {
+  font-size: 3rem;
+  text-align: center;
+  font-family: "Cormorant Infant";
+}
+.galvene-date-time1 {
+  font-size: 18px;
+  font-family: "Cormorant Infant";
+}
+.galvene-image {
+  top: 130px;
+  right: 151px;
+  width: 470px;
+  height: 341px;
+  margin: auto;
+  position: absolute;
+  align-self: flex-end;
+  object-fit: cover;
+}
+.galvene-text09 {
+  color: #ffffff;
+  font-size: 35px;
+  align-self: flex-start;
+  font-style: normal;
+  font-family: "Cormorant Infant";
+  font-weight: 700;
+}
+.galvene-container12 {
+  flex: 0 0 auto;
+  width: auto;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.galvene-text10 {
+  font-size: 25px;
+  align-self: flex-start;
+  font-style: normal;
+  font-family: "Cormorant Infant";
+  font-weight: 600;
+}
+.galvene-text16 {
+  max-width: var(--dl-size-size-maxwidth);
+  margin-top: var(--dl-space-space-twounits);
+  text-align: center;
+  margin-bottom: var(--dl-space-space-twounits);
+}
+.galvene-navlink4 {
+  font-size: 20px;
+  align-self: flex-start;
+  font-style: normal;
+  font-family: "Cormorant Infant";
+  font-weight: 600;
+  text-decoration: none;
+}
+.galvene-pricing {
+  width: 1195px;
+  display: flex;
+  justify-content: center;
+}
+.galvene-container13 {
+  gap: 100;
+  width: 1340px;
+  height: 552px;
+  display: flex;
+  padding: var(--dl-space-space-threeunits);
+  max-width: var(--dl-size-size-maxwidth);
+  align-self: center;
+  align-items: flex-end;
+  background-size: cover;
+  justify-content: center;
+}
+.galvene-pricing-card {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  max-width: 450px;
+  min-height: 450px;
+  transition: 0.3s;
+  align-items: flex-start;
+  padding-top: var(--dl-space-space-twounits);
+  margin-right: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-twounits);
+  border-radius: 50px;
+  padding-right: var(--dl-space-space-twounits);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-unit);
+  background-size: cover;
+  justify-content: space-between;
+  background-color: var(--dl-color-gray-white);
+  background-image: linear-gradient(315deg, rgba(236, 216, 153, 0.92) 0.00%,rgba(236, 216, 153, 0.92) 1.00%,rgba(193, 175, 138, 0.22) 5.00%,rgba(193, 175, 138, 0.34) 34.00%,rgba(193, 175, 138, 0.31) 99.00%),url('https://rositten.lv/wp-content/uploads/2020/10/16-Re%CC%84zeknes-Valsts-skolota%CC%84ju-institu%CC%84ts-1926.-gads.-Latgales-Kultu%CC%84rve%CC%84stures-muzeja-kra%CC%84jums-1200x845.jpg');
+}
+.galvene-pricing-card:hover {
+  transform: scale(1.02);
+}
+.galvene-container14 {
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--dl-space-space-twounits);
+  flex-direction: row;
+}
+.galvene-text20 {
+  color: #000000;
+  margin: var(--dl-space-space-twounits);
+  font-size: 1.5rem;
+  align-self: center;
+  font-style: normal;
+  text-align: center;
+  font-family: "Cormorant Infant";
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.galvene-navlink5 {
+  color: #000000;
+  width: 135px;
+  height: 48px;
+  font-size: 20px;
+  align-self: center;
+  font-style: normal;
+  margin-top: auto;
+  font-family: "Cormorant Infant";
+  font-weight: 600;
+  padding-top: var(--dl-space-space-unit);
+  padding-left: var(--dl-space-space-twounits);
+  margin-bottom: auto;
+  padding-right: var(--dl-space-space-twounits);
+  padding-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+  background-color: #ffffff;
+}
+.galvene-pricing-card1 {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  opacity: 1;
+  max-width: 450px;
+  min-height: 450px;
+  transition: 0.3s;
+  align-items: flex-start;
+  padding-top: 76px;
+  margin-right: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-twounits);
+  border-radius: var(--dl-radius-radius-radius4);
+  padding-right: var(--dl-space-space-twounits);
+  flex-direction: column;
+  background-size: cover;
+  background-color: var(--dl-color-gray-white);
+  background-image: linear-gradient(90deg, rgba(176, 163, 140, 0.65) 1.00%,rgba(223, 183, 138, 0.24) 100.00%),url('https://latgale.travel/wp-content/uploads/2019/08/makslas_nams6.jpg');
+  background-position: center;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+.galvene-pricing-card1:hover {
+  transform: scale(1.02);
+}
+.galvene-text25 {
+  margin: var(--dl-space-space-twounits);
+  font-size: 1.5rem;
+  align-self: center;
+  font-style: normal;
+  font-family: "Cormorant Infant";
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.galvene-navlink6 {
+  color: rgb(0, 0, 0);
+  height: 49px;
+  font-size: 20px;
+  align-self: center;
+  font-style: normal;
+  margin-top: auto;
+  font-family: "Cormorant Infant";
+  font-weight: 600;
+  padding-top: var(--dl-space-space-unit);
+  padding-left: var(--dl-space-space-twounits);
+  margin-bottom: auto;
+  padding-right: var(--dl-space-space-twounits);
+  padding-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+  background-color: rgb(255, 255, 255);
+}
+.galvene-pricing-card2 {
+  width: 100%;
+  height: 18px;
+  display: flex;
+  max-width: 450px;
+  min-height: 450px;
+  transition: 0.3s;
+  align-items: flex-start;
+  padding-top: 111px;
+  padding-left: var(--dl-space-space-twounits);
+  border-radius: 50px;
+  padding-right: var(--dl-space-space-twounits);
+  flex-direction: column;
+  background-size: cover;
+  background-image: linear-gradient(180deg, rgba(204, 192, 129, 0.36) 0.00%,rgba(215, 195, 151, 0.57) 35.00%,rgba(210, 191, 149, 0.31) 43.00%,rgba(219, 198, 154, 0.2) 100.00%),url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAXVD6O7Yn05ZK7wGOv9jweUKd727yciMZOywiMDxClA&s');
+  background-position: center;
+}
+.galvene-pricing-card2:hover {
+  transform: scale(1.02);
+}
+.galvene-text26 {
+  font-size: 1.5rem;
+  align-self: center;
+  font-style: normal;
+  font-family: "Cormorant Infant";
+  font-weight: 700;
+  margin-bottom: var(--dl-space-space-twounits);
+  text-transform: uppercase;
+}
+.galvene-navlink7 {
+  color: #000000;
+  width: 113px;
+  height: 48px;
+  padding: var(--dl-space-space-unit);
+  font-size: 20px;
+  align-self: center;
+  font-style: normal;
+  margin-top: auto;
+  text-align: center;
+  font-family: "Cormorant Infant";
+  font-weight: 600;
+  border-color: #000000;
+  margin-bottom: auto;
+  text-decoration: none;
+  background-color: #ffffff;
+}
+.galvene-footer {
+  width: 100%;
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #352B2A;
+}
+.galvene-content2 {
+  gap: 120px;
+  width: 100%;
+  height: 184px;
+  display: flex;
+  position: relative;
+  max-width: 1440px;
+  align-items: flex-start;
+  padding-top: var(--dl-space-space-fourunits);
+  padding-left: var(--dl-space-space-fiveunits);
+  padding-right: var(--dl-space-space-fiveunits);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-threeunits);
+  justify-content: center;
+}
+.galvene-copyright {
+  left: 620px;
+  color: rgb(118, 105, 104);
+  right: 0px;
+  bottom: 15px;
+  margin: auto;
+  position: absolute;
+  align-self: center;
+}
+.galvene-text27 {
+  top: 66px;
+  right: 61px;
+  position: absolute;
+  align-self: flex-end;
+  text-align: right;
+}
+.galvene-text28 {
+  color: #ffffff;
+  font-style: normal;
+  font-family: "Cormorant Infant";
+  font-weight: 700;
+}
+.galvene-text29 {
+  color: #ffffff;
+  font-style: normal;
+  font-family: "Cormorant Infant";
+  font-weight: 700;
+}
+.galvene-text30 {
+  font-style: normal;
+  font-family: "Cormorant Infant";
+  font-weight: 700;
+}
+.galvene-text31 {
+  color: #ffffff;
+  font-style: normal;
+  font-family: "Cormorant Infant";
+  font-weight: 700;
+}
+.galvene-container16 {
+  display: contents;
+}
+@media(max-width: 991px) {
+  .galvene-links {
+    gap: var(--dl-space-space-oneandhalfunits);
+  }
+  .galvene-testimonials {
+    padding-top: var(--dl-space-space-fourunits);
+    padding-bottom: var(--dl-space-space-fourunits);
+  }
+  .galvene-text16 {
+    max-width: 100%;
+  }
+  .galvene-pricing-card {
+    width: 100%;
+    padding: var(--dl-space-space-twounits);
+    max-width: 100%;
+    align-items: center;
+  }
+  .galvene-pricing-card1 {
+    width: 100%;
+    max-width: 100%;
+    align-items: center;
+  }
+  .galvene-pricing-card2 {
+    width: 100%;
+    max-width: 100%;
+    align-items: center;
+  }
+  .galvene-content2 {
+    gap: var(--dl-space-space-threeunits);
+  }
+}
+@media(max-width: 767px) {
+  .galvene-main {
+    padding-left: var(--dl-space-space-oneandhalfunits);
+    padding-right: var(--dl-space-space-oneandhalfunits);
+  }
+  .galvene-navbar {
+    padding-top: var(--dl-space-space-twounits);
+    padding-bottom: var(--dl-space-space-twounits);
+  }
+  .galvene-menu {
+    display: flex;
+  }
+  .galvene-hamburger {
+    display: flex;
+  }
+  .galvene-links {
+    display: none;
+  }
+  .galvene-mobile-menu {
+    background-color: #397B53;
+  }
+  .galvene-icon02 {
+    fill: #fff;
+  }
+  .galvene-text03 {
+    color: #fff;
+  }
+  .galvene-text04 {
+    color: #fff;
+  }
+  .galvene-text05 {
+    color: #fff;
+  }
+  .galvene-text06 {
+    color: #fff;
+  }
+  .galvene-text07 {
+    color: #fff;
+  }
+  .galvene-center {
+    padding-bottom: 100px;
+  }
+  .galvene-heading {
+    gap: var(--dl-space-space-halfunit);
+  }
+  .galvene-header {
+    font-size: 40px;
+    line-height: 40px;
+  }
+  .galvene-testimonials {
+    padding-left: var(--dl-space-space-oneandhalfunits);
+    padding-right: var(--dl-space-space-oneandhalfunits);
+  }
+  .galvene-content1 {
+    gap: var(--dl-space-space-unit);
+    align-items: center;
+  }
+  .galvene-heading1 {
+    gap: var(--dl-space-space-unit);
+    width: 80%;
+    align-items: center;
+  }
+  .galvene-quote {
+    font-size: 24px;
+    text-align: center;
+    line-height: 28px;
+  }
+  .galvene-details {
+    gap: var(--dl-space-space-threeunits);
+    flex-direction: column;
+    justify-content: center;
+  }
+  .galvene-author {
+    gap: var(--dl-space-space-unit);
+    flex-direction: column;
+  }
+  .galvene-avatar {
+    width: 60px;
+  }
+  .galvene-name {
+    font-size: 14px;
+  }
+  .galvene-articles {
+    padding-left: var(--dl-space-space-oneandhalfunits);
+    padding-right: var(--dl-space-space-oneandhalfunits);
+  }
+  .galvene-banner {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .galvene-text16 {
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+  }
+  .galvene-container13 {
+    flex-flow: column;
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .galvene-pricing-card {
+    width: 100%;
+    max-width: 450px;
+    align-items: center;
+    margin-right: 0px;
+    margin-bottom: var(--dl-space-space-twounits);
+  }
+  .galvene-pricing-card1 {
+    width: 100%;
+    max-width: 450px;
+    align-items: center;
+    margin-right: 0px;
+    margin-bottom: var(--dl-space-space-twounits);
+  }
+  .galvene-pricing-card2 {
+    width: 100%;
+    max-width: 450px;
+    align-items: center;
+    margin-right: 0px;
+    margin-bottom: var(--dl-space-space-twounits);
+  }
+  .galvene-content2 {
+    padding-left: var(--dl-space-space-oneandhalfunits);
+    padding-right: var(--dl-space-space-oneandhalfunits);
+  }
+}
+@media(max-width: 479px) {
+  .galvene-navbar {
+    padding: var(--dl-space-space-unit);
+  }
+  .galvene-mobile-menu {
+    padding: 16px;
+  }
+  .galvene-banner {
+    padding-top: var(--dl-space-space-twounits);
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: var(--dl-space-space-twounits);
+  }
+  .galvene-container13 {
+    padding-top: var(--dl-space-space-twounits);
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: var(--dl-space-space-twounits);
+  }
+  .galvene-pricing-card2 {
+    margin-bottom: 0px;
+  }
+}

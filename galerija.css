@@ -1,0 +1,165 @@
+.gallery-card11-gallery-card {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.gallery-card11-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.gallery-card11-text {
+  color: var(--dl-color-gray-500);
+  align-self: flex-start;
+}
+.gallery-card11-root-class-name {
+  background-color: rgba(0, 0, 0, 0.12);
+}
+.gallery-card11-root-class-name1 {
+  background-color: rgba(0, 0, 0, 0.12);
+}
+.gallery-card11-root-class-name2 {
+  background-color: rgba(0, 0, 0, 0.12);
+}
+.gallery-card11-root-class-name3 {
+  background-color: rgba(0, 0, 0, 0.12);
+}
+.gallery-card11-root-class-name4 {
+  background-color: rgba(0, 0, 0, 0.12);
+}
+.gallery-card11-root-class-name5 {
+  background-color: rgba(0, 0, 0, 0.12);
+}
+
+.gallery-card11-root-class-name7 {
+  background-color: rgba(0, 0, 0, 0.12);
+}
+.gallery-card11-root-class-name8 {
+  background-color: rgba(0, 0, 0, 0.12);
+}
+@media(max-width: 767px) {
+  .gallery-card11-gallery-card {
+    flex-direction: column;
+  }
+}
+@media(max-width: 479px) {
+  .gallery-card11-image {
+    height: 10rem;
+  }
+}
+
+.galerija-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 1000vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.galerija-navlink {
+  top: 75px;
+  left: 26px;
+  color: var(--dl-color-gray-black);
+  position: absolute;
+  align-self: flex-start;
+  font-style: normal;
+  text-align: left;
+  font-weight: 600;
+  text-decoration: none;
+}
+.galerija-text {
+  height: 150px;
+  font-size: 50px;
+  align-self: stretch;
+  font-style: normal;
+  text-align: center;
+  font-family: "Cormorant Infant";
+  font-weight: 700;
+  background-color: rgb(255, 255, 255);
+}
+.galerija-slider {
+  top: 200px;
+  left: 0px;
+  right: 0px;
+  width: 1028px;
+  height: 507px;
+  margin: auto;
+  display: inline-block;
+  position: absolute;
+}
+.galerija-slider-wrapper {
+  position: relative;
+}
+.galerija-slider-slide {
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  width: 1026px;
+  bottom: 0px;
+  height: 509px;
+  margin: auto;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  background-size: cover;
+  background-image: url('https://static.lsm.lv/media/2022/11/thumbnail/1/jiil.jpg');
+}
+.galerija-slider-slide1 {
+  display: flex;
+  align-items: center;
+  background-size: cover;
+  justify-content: flex-start;
+  background-image: url('https://static.lsm.lv/media/2016/11/large/0/6gaj.jpg');
+}
+.galerija-slider-slide2 {
+  display: flex;
+  align-items: flex-end;
+  background-size: cover;
+  background-image: url('https://static.lsm.lv/media/2022/11/large/1/jiim.jpg');
+}
+.galerija-slider-pagination {
+  display: block;
+}
+.galerija-slider-button-prev {
+  color: #523434;
+}
+.galerija-slider-button-next {
+  color: #523434;
+}
+.galerija-gallery {
+  top: 738px;
+  left: 0px;
+  right: 0px;
+  width: 100%;
+  height: 343px;
+  margin: auto;
+  display: grid;
+  padding: var(--dl-space-space-threeunits);
+  grid-gap: var(--dl-space-space-unit);
+  position: absolute;
+  max-width: var(--dl-size-size-maxwidth);
+  grid-template-columns: 1fr 1fr 1fr;
+}
+@media(max-width: 991px) {
+  .galerija-gallery {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media(max-width: 767px) {
+  .galerija-gallery {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+}
+@media(max-width: 479px) {
+  .galerija-gallery {
+    padding-top: var(--dl-space-space-twounits);
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: var(--dl-space-space-twounits);
+  }
+}

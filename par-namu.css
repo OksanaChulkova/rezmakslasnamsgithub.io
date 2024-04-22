@@ -1,0 +1,67 @@
+.par-namu-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: #ffffff;
+}
+.par-namu-text {
+  color: rgb(0, 0, 0);
+  height: 150px;
+  font-size: 50px;
+  align-self: stretch;
+  font-style: normal;
+  text-align: center;
+  font-family: "Cormorant Infant";
+  font-weight: 700;
+  text-transform: uppercase;
+  background-color: rgba(96, 61, 30, 0.57);
+}
+.par-namu-navlink {
+  top: 75px;
+  left: 26px;
+  position: absolute;
+  font-style: normal;
+  font-weight: 600;
+  text-decoration: none;
+}
+.par-namu-text04 {
+  top: 250px;
+  left: 100px;
+  color: rgb(0, 0, 0);
+  right: 100px;
+  position: absolute;
+  font-size: 27px;
+  align-self: flex-start;
+  font-style: normal;
+  text-align: left;
+  font-family: "Cormorant Infant";
+  font-weight: 600;
+}
+.par-namu-text05 {
+  font-size: 30px;
+}
+.par-namu-text06 {
+  font-size: 30px;
+}
+.par-namu-text09 {
+  font-size: 30px;
+}
+.par-namu-text10 {
+  font-size: 30px;
+}
+.par-namu-text12 {
+  font-size: 30px;
+}
+.par-namu-text13 {
+  font-size: 30px;
+}
+.par-namu-text15 {
+  font-size: 30px;
+}
+.par-namu-text16 {
+  font-size: 30px;
+}
